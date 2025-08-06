@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Action Buttons -->
+  <div class="buttons">
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    <button onclick="window.print()">🖨 Print</button>
+    <a href="CV_Template.pdf" download><button>⬇ Download PDF</button></a>
+  </div>
+
+  <div class="container">
+
+    <div class="header">
+      <img src="aac.jpg" alt="Profile Picture" class="profile-pic" />
+      <h1>Abdul Ahad Chishti</h1>
+      <p class="title">  Student | Web Developer</p>
+    </div>
+
+    <div class="section personal">
+      <h2>Personal Information</h2>
+      <ul>
+        <li><strong>Email:</strong> abdulahadchishti@gmail.com</li>
+        <li><strong>Phone:</strong> +923165574483</li>
+        <li><strong>Location:</strong> Burewala,Pakistan</li>
+        <li><strong>WhatsApp:</strong> <a href="#">https://wa.me/923165574483</a></li>
+        <li><strong>GitHub:</strong> <a href="#">https://instagram.com/_abdulahad_chishti_</a></li>
+      </ul>
+    </div>
+
+    <div class="section education">
+      <h2>Education</h2>
+      <div class="item">
+        <h3>FSc Pre-Medical – Punjab College</h3>
+        <p>2024 – 2026</p>
+      </div>
+      <div class="item">
+        <h3>Matric – Divisional Public School</h3>
+        <p>2022 – 2024</p>
+      </div>
+    </div>
+
+    <div class="section experience">
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>Intern – Web-Dev >Co</h3>
+        <p>June 2025 – August 2025</p>
+        <p>Worked on front-end web development using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+
+    <div class="section projects">
+      <h2>Projects</h2>
+      <div class="item">
+        <h3>Portfolio Website</h3>
+        <p>Created a responsive portfolio using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="item">
+        <h3>One Page Website</h3>
+        <p>Create one page websites using HTML with Css</p>
+      </div>
+    </div>
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Ms Office</li>
+        <li>Internet Handling</li>
+       <!--<li></li>--> 
+        <li>Communication</li>
+      </ul>
+    </div>
+
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out via <a href="mailto:abdulahadchishti@gmail.com">email</a> or <a href="https://wa.me/923165574483">WhatsApp</a>.</p>
+    </div>
+
+  </div>
+
+  <!-- JS for Dark Mode -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+
+</body>
+</html>
